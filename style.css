@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#e8f5e9, #c8e6c9);
+  text-align: center;
+}
+
+.login, .dashboard {
+  background: white;
+  width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b5e20;
+}
+
+.logout {
+  background: #c62828;
+  margin-top: 20px;
+}
+
+#dashboard {
+  display: none;
+}
+
+img {
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.sadi {
+  background: #f1f8e9;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
