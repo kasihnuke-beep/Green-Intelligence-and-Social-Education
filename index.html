@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Green Intelligence & Social Education</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login" id="loginPage">
+  <h2>Login GITU HUB</h2>
+  <input type="text" id="username" placeholder="Username">
+  <button onclick="login()">Login</button>
+</div>
+
+<div class="dashboard" id="dashboard">
+  <h1>🌱 Green Intelligence & Social Education</h1>
+  <p>Klasifikasi Lingkungan Berbasis AI, Edukasi Sosial & SADI</p>
+
+  <h3>Unggah Foto Lingkungan</h3>
+  <input type="file" id="imageInput" accept="image/*">
+  <button onclick="analyze()">Analisis</button>
+
+  <div id="preview"></div>
+  <div id="result"></div>
+
+  <h3>📘 Edukasi SADI</h3>
+  <p class="sadi">
+    SADI (Sustainable AI & Digital Innovation) menekankan penggunaan
+    AI yang bertanggung jawab, ramah lingkungan, dan berdampak sosial
+    untuk keberlanjutan masa depan.
+  </p>
+
+  <button class="logout" onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
